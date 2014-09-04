@@ -39,7 +39,7 @@ wp.media.view.MediaFrame.Post = pf.extend({
 
 			if ( !mexp_twitter_location_js_loaded ) {
 
-				$('#mexp_twitter_map_canvas').css( 'background-image', 'url(' + mexp.admin_url + '/images/wpspin_light.gif)');
+				jQuery('#mexp_twitter_map_canvas').css( 'background-image', 'url(' + mexp.admin_url + '/images/wpspin_light.gif)');
 
 				var script = document.createElement("script");
 				script.type = "text/javascript";
